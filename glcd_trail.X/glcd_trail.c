@@ -8,8 +8,8 @@
 
 #define _XTAL_FREQ 16000000
 #include <xc.h>
-#include <Custom_Headers/config45k22.h>
-#include <Custom_Headers/glcd.h>
+#include <Custom_Headers/config45k22.h> //locate the header file on your PC
+#include <Custom_Headers/glcd.h>        //locate the header file on your PC
 
 void main(void) {
     int i;
