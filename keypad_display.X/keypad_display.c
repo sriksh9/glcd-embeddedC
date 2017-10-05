@@ -7,7 +7,7 @@
 
 #include <xc.h>
 #define _XTAL_FREQ 16000000
-#include <Custom_Headers/glcd.h>
+#include <Custom_Headers/glcd.h> //locate the header file on your PC
 
 unsigned char keyscan();
 
